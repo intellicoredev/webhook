@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="/static/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="/static/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/static/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/bootstrap/dist/css/bootstrap-theme.min.css">
+</head>
+<body>
+<h1 class="text-center">  SIGFOX Devices Data </h1>
+  <div class="col-lg-12">
+      <style>
+        .form-signin {
+          max-width: 550px;
+          padding: 15px;
+          margin: 0 auto;
+        }
+      </style>
+
+
+      <div class="container text-center">
+          <form class="form-signin" id="device_form" method="post" action="/app/devices/">
+            {% csrf_token %}
+
+
+            <br>
+            <input type="text" name="device_id" class="form-control" placeholder="SIGFOX Device ID, e.g: 443245" value="" required autofocus>
+            <br>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Get Data</button>
+          </form>
+      </div>
+      <div class="table-responsive">
+          <table class="table table-bordered table-hover table-striped tablesorter">
+              <thead>
+              <tr>
+                <th class="header"> Country <i class="icon-sort"></i></th>
+                <th class="header"> Data <i class="icon-sort"></i></th>
+                <th class="header"> Device  <i class="icon-sort"></i></th>
+                <th class="header"> GroupId  <i class="icon-sort"></i></th>
+                <th class="header"> linkQuality <i class="icon-sort"></i></th>
+                <th class="header"> nbFrames <i class="icon-sort"></i></th>
+                <th class="header"> operator <i class="icon-sort"></i></th>
+                <th class="header"> rinfos <i class="icon-sort"></i></th>
+                  <th class="header"> rinfos <i class="icon-sort"></i></th>
+                <th class="header"> seqNumber <i class="icon-sort"></i></th>
+                  <th class="header"> snr <i class="icon-sort"></i></th>
+                <th class="header"> Time <i class="icon-sort"></i></th>
+              </tr>
+          </thead>
+          <tbody>
+
+          {% for key in data %}
+              <tr>
+                  <td>{{ key.country }}</td>
+                  <td>{{ key.data }}</td>
+                  <td>{{ key.device }}</td>
+                  <td>{{ key.groupId }}</td>
+                  <td>{{ key.linkQuality }}</td>
+                  <td>{{ key.nbFrames }}</td>
+                  <td>{{ key.operator }}</td>
+                  <!-- <td>{{ key.rinfos }}</td> -->
+                   <tr>
+                  {% for key_r in rinfos %}
+                       <td>tap: {{ key_r.tap }}</td>
+                       <td>delay: {{ key_r.delay }}</td>
+                       <td>latitude: {{ key_r.lat }}</td>
+                       <td>longitude: {{ key_r.lng }}</td>
+                  {% endfor %}
+                  </tr>
+
+
+                  <td>{{ key.seqNumber }}</td>
+                  <td>{{ key.snr }}</td>
+                  <td>{{ key.time }}</td>
+              </tr>
+          {% endfor %}
+          </tbody>
+          </table>
+      </div>
+    </div>
+</body>
+</html>

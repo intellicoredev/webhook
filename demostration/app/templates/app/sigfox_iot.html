@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="/static/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="/static/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/static/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/bootstrap/dist/css/bootstrap-theme.min.css">
+</head>
+<body>
+<h1 class="text-center">  SIGFOX Devices Data </h1>
+  <div class="col-lg-12">
+      <style>
+        .form-signin {
+          max-width: 550px;
+          padding: 15px;
+          margin: 0 auto;
+        }
+      </style>
+
+
+      <div class="container text-center">
+          <form class="form-signin" id="device_form" method="post" action="/app/devices/">
+            {% csrf_token %}
+
+
+            <br>
+            <input type="text" name="device_id" class="form-control" placeholder="SIGFOX Device ID, e.g: 443245" value="" required autofocus>
+            <br>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Get Data</button>
+          </form>
+      </div>
+      <div class="table-responsive">
+          <table class="table table-bordered table-hover table-striped tablesorter">
+              <thead>
+              <tr>
+                <th class="header"> device <i class="icon-sort"></i></th>
+                <th class="header"> time <i class="icon-sort"></i></th>
+                <th class="header"> station  <i class="icon-sort"></i></th>
+                <th class="header"> data  <i class="icon-sort"></i></th>
+                <th class="header"> lat <i class="icon-sort"></i></th>
+                <th class="header"> lng <i class="icon-sort"></i></th>
+                <th class="header"> reles <i class="icon-sort"></i></th>
+                <th class="header"> energia <i class="icon-sort"></i></th><th class="header"> blue <i class="icon-sort"></i></th>
+                <th class="header"> duplicate <i class="icon-sort"></i></th>
+                <th class="header"> snr <i class="icon-sort"></i></th
+                <th class="header"> avgSnr <i class="icon-sort"></i></th>
+                  <th class="header"> rssi <i class="icon-sort"></i></th>
+                  <th class="header"> seqNumber <i class="icon-sort"></i></th>
+
+
+              </tr>
+          </thead>
+          <tbody>
+
+
+
+          </tbody>
+          </table>
+      </div>
+    </div>
+</body>
+</html>
