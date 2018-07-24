@@ -26,4 +26,4 @@ class Radios(models.Model):
     #Direccion = models.ForeignKey(Direccion)
     
     def __str__(self):
-        return self.clave
+        return self.KeyRadio

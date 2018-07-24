@@ -21,6 +21,38 @@ from django.conf import settings
 from app import views
 from app.models import Radios
 
+from time import strptime, strftime, mktime, gmtime
+
+
+def datetime_converter(datetime_string):
+    # (1) Convert to datetime format
+    target_timestamp = strptime(datetime_string, '%Y-%m-%d %H:%M:%S')
+
+    # (2) mktime creates epoch time from the local time
+    mktime_epoch = mktime(target_timestamp)
+    print(int(mktime_epoch))  # convert to integer to remove decimal
+
+    # (3) gmtime to convert epoch time into UTC time object
+    epoch_to_timestamp = strftime('%Y-%m-%d %H:%M:%S', gmtime(mktime_epoch))
+    print(epoch_to_timestamp)
+
+
+def date_converter(date_string):
+    # (1) Convert to date format
+    target_timestamp = strptime(date_string, '%Y-%m-%d')
+
+    # (2) mktime creates epoch time from the local time
+    mktime_epoch = mktime(target_timestamp)
+    print(int(mktime_epoch))  # convert to integer to remove decimal
+
+    # (3) gmtime to convert epoch time into UTC time object
+    epoch_to_timestamp = strftime('%Y-%m-%d %H:%M:%S', gmtime(mktime_epoch))
+    print(epoch_to_timestamp)
+
+
+datetime_converter('2018-02-15 00:00:00')
+date_converter('2018-02-15')
+
 # Create your views here.
 
 import logging
@@ -123,12 +155,22 @@ def devices(request):
     if request.method == 'POST':
         device_id = request.POST.get('device_id')
         url = 'https://backend.sigfox.com/api/devices/' + device_id + '/messages'
-
+        print("{} {}".format(device_id, url))
         req = requests.get(url,auth=HTTPBasicAuth(user, password))
 
+        payload = request.body
+        event = request.POST
+        my_json = payload.decode('utf8').replace("'", '"')
+        print(my_json)
+        print('- ' * 20)
+
+        #data = json.loads(my_json)
+
+        #s = json.dumps(data, indent=4, sort_keys=True)
+        #print(s)
 
         jsonList = []
-        jsonList.append(json.loads(req.content))
+        jsonList.append(json.dumps(req.content))
         userData = {}
 
         for data in jsonList:
@@ -230,6 +272,29 @@ def webhook(request):
     return HttpResponse(payload, status=http.client.ACCEPTED)
 
 
+from datetime import datetime, tzinfo, timedelta
+
+
+class Zone(tzinfo):
+
+    def __init__(self, offset, isdst, name):
+        self.offset = offset
+        self.isdst = isdst
+        self.name = name
+
+    def utcoffset(self, dt):
+        return timedelta(hours=self.offset) + self.dst(dt)
+
+    def dst(self, dt):
+            return timedelta(hours=1) if self.isdst else timedelta(0)
+
+    def tzname(self, dt):
+         return self.name
+
+
+
+
+
 def pretty_request(request):
     headers = ''
     for header, value in request.META.items():
@@ -253,8 +318,42 @@ def pretty_request(request):
     )
 
 
+# Get The Current Date Or Time
+def getdatetime(timedateformat='complete'):
+    from datetime import datetime
+    timedateformat = timedateformat.lower()
+    if timedateformat == 'day':
+        return ((str(datetime.now())).split(' ')[0]).split('-')[2]
+    elif timedateformat == 'month':
+        return ((str(datetime.now())).split(' ')[0]).split('-')[1]
+    elif timedateformat == 'year':
+        return ((str(datetime.now())).split(' ')[0]).split('-')[0]
+    elif timedateformat == 'hour':
+        return (((str(datetime.now())).split(' ')[1]).split('.')[0]).split(':')[0]
+    elif timedateformat == 'minute':
+        return (((str(datetime.now())).split(' ')[1]).split('.')[0]).split(':')[1]
+    elif timedateformat == 'second':
+        return (((str(datetime.now())).split(' ')[1]).split('.')[0]).split(':')[2]
+    elif timedateformat == 'millisecond':
+        return (str(datetime.now())).split('.')[1]
+    elif timedateformat == 'yearmonthday':
+        return (str(datetime.now())).split(' ')[0]
+    elif timedateformat == 'daymonthyear':
+        return ((str(datetime.now())).split(' ')[0]).split('-')[2] + '-' + ((str(datetime.now())).split(' ')[0]).split('-')[1] + '-' + ((str(datetime.now())).split(' ')[0]).split('-')[0]
+    elif timedateformat == 'hourminutesecond':
+        return ((str(datetime.now())).split(' ')[1]).split('.')[0]
+    elif timedateformat == 'secondminutehour':
+        return (((str(datetime.now())).split(' ')[1]).split('.')[0]).split(':')[2] + ':' + (((str(datetime.now())).split(' ')[1]).split('.')[0]).split(':')[1] + ':' + (((str(datetime.now())).split(' ')[1]).split('.')[0]).split(':')[0]
+    elif timedateformat == 'complete':
+        return str(datetime.now())
+    elif timedateformat == 'datetime':
+        return (str(datetime.now())).split('.')[0]
+    elif timedateformat == 'timedate':
+        return ((str(datetime.now())).split('.')[0]).split(' ')[1] + ' ' + ((str(datetime.now())).split('.')[0]).split(' ')[0]
+
+
 def handle_sigfox_webhook(data, request):
-    
+    import datetime
 
     """Simple webhook handler that prints the event and payload to the console"""
     
@@ -268,7 +367,7 @@ def handle_sigfox_webhook(data, request):
     event = request.POST
     my_json = payload.decode('utf8').replace("'", '"')
     logging.debug(my_json)
-    logging.debug('- ' * 50)
+    logging.debug('-' * 50)
 
     logging.debug(('log:handle_sigfox_webhook request {}'.format(pprint)))
     #print('log:handle_sigfox_webhook request: \n %s', json.dumps(request.POST, indent=4, sort_keys=True))
@@ -339,8 +438,16 @@ def handle_sigfox_webhook(data, request):
     '''
     # pr = time.gmtime(int(tm))
     # print(pr)
-    pr = time.strftime('%Y-%m-%d  %H:%M:%S', time.localtime(int(fecha)))
-    print(pr)
+    
+    date_time_local = datetime.datetime.now().strftime("%I:%M%p on %B %d, %Y")
+    print(date_time_local)
+    print(print_date_in)
+
+    now = datetime.datetime.now()
+    time_now = (now.year, now.month, now.day, now.hour, now.minute, now.second)
+    print(time_now)
+
+    print(getdatetime("datetime"))
 
     logging.debug('{} {} {} {} {} {} {} {} {} {} {} {} {} {} \n'.format(device_in, time_in, station_in, data_in,
     lat_in, lng_in, reles_in, energia_in, blue_in, duplicate_in, snr_in,
