@@ -23,6 +23,9 @@ from app.models import Radios
 
 from time import strptime, strftime, mktime, gmtime
 
+from sigfoxapi import Sigfox
+
+
 
 def datetime_converter(datetime_string):
     # (1) Convert to datetime format
@@ -140,6 +143,7 @@ def sigfox_iot(request ):
 
 
 
+
 def devices(request):
     parsedData = []
     parsed_rinfoData = []
@@ -157,21 +161,14 @@ def devices(request):
         url = 'https://backend.sigfox.com/api/devices/' + device_id + '/messages'
         print("{} {}".format(device_id, url))
         req = requests.get(url,auth=HTTPBasicAuth(user, password))
-
-        payload = request.body
-        event = request.POST
-        my_json = payload.decode('utf8').replace("'", '"')
-        print(my_json)
-        print('- ' * 20)
-
-        #data = json.loads(my_json)
-
-        #s = json.dumps(data, indent=4, sort_keys=True)
-        #print(s)
-
+        print("{} {}".format(req.status_code,req.text))
+        
         jsonList = []
-        jsonList.append(json.dumps(req.content))
+        jsonList.append(json.loads(req.text))
         userData = {}
+
+        flat = flatten_json(jsonList)
+        json_normalize(flat)
 
         for data in jsonList:
             userData = {}
@@ -357,21 +354,40 @@ def handle_sigfox_webhook(data, request):
 
     """Simple webhook handler that prints the event and payload to the console"""
     
+    '''
+    Data comes in json format as {
+        "device": "42A58F",
+        "time": "1532456232",
+        "station": "2501",
+        "data": "419b348ac2c653a400000002",
+        "lat": 19.400654,
+        "lng": -99.16336,
+        "reles": 0,
+        "energia": 0,
+        "blue": 0,
+        "duplicate": "false",
+        "snr": "23.27",
+        "avgSnr": "16.37",
+        "rssi": "-120.00",
+        "seqNumber": "1324"
+    }
+    '''
+    
 
     logging.debug(('log: handle_sigfox_webhook  (data):receive'))
-    logging.debug((json.dumps(data, indent=4, sort_keys=False)))
     logging.debug('log:handle_sigfox_webhook  (request.body)')
-    pprint = pretty_request(request)
-
+    '''
     payload = request.body
     event = request.POST
     my_json = payload.decode('utf8').replace("'", '"')
     logging.debug(my_json)
     logging.debug('-' * 50)
-
-    logging.debug(('log:handle_sigfox_webhook request {}'.format(pprint)))
+    '''
     #print('log:handle_sigfox_webhook request: \n %s', json.dumps(request.POST, indent=4, sort_keys=True))
-    
+    logging.info('-' * 50)
+    data_json = json.dumps(data, indent=4)
+    print("DEBUG:handle_sigfox_webhook:data_json\n {}".format(data_json))
+
     device_in = data['device']
     time_in  = data['time']
     station_in = data['station']
@@ -455,6 +471,27 @@ def handle_sigfox_webhook(data, request):
     # request_in = request
 
     
+def pretty_request(request):
+    headers = ''
+    for header, value in request.META.items():
+        if not header.startswith('HTTP'):
+            continue
+        header = '-'.join([h.capitalize() for h in header[5:].lower().split('_')])
+        headers += '{}: {}\n'.format(header, value)
+
+    return (
+        '{method} HTTP/1.1\n'
+        'Content-Length: {content_length}\n'
+        'Content-Type: {content_type}\n'
+        '{headers}\n\n'
+        '{body}'
+    ).format(
+        method=request.method,
+        content_length=request.META['CONTENT_LENGTH'],
+        content_type=request.META['CONTENT_TYPE'],
+        headers=headers,
+        body=request.body,
+    )
 
 
 @csrf_exempt
@@ -468,20 +505,25 @@ def sigfox_webhook(request):
 
     # Sometimes the payload comes in as the request body, sometimes it comes in
     # as a POST parameter. This will handle either case.
-    
+
+    pr_print = pretty_request(request)
+    print("DEBUG:Method: {}".format(pr_print))
+
+    print("DEBUG:Request print {}".format(pr_print))
 
     if 'data' in request.POST:
         data = json.loads(request.POST['data'])
-        print(('sigfox_webhook Log: 1. <data> received the {} device'.format(data)))
+        print(('sigfox_webhook Log: 1. POST <data> received the {} device'.format(data)))
     else:
         data = json.loads(request.body)
+        print("DEBUG:Body: {}".format(request.body))
+        #print("{}".format(request.headers))
         #print(('sigfox_webhook Log: 2. <body> received the {} device'.format(data)))
-        print('sigfox_webhook Log: 2. <body> received')
+        print('DEBUG:sigfox_webhook Log: 2. NO POST <body> received')
         print((json.dumps(data, indent=4)))
     
     
 
-    event = data
     handle_sigfox_webhook(data, request)
 
 
