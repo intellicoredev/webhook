@@ -22555,3 +22555,441 @@ DEBUG:root:data:
 
 DEBUG:root:42A58F 1532457009 2501 419b3323c2c653c100000002 19.39997 -99.16358 0 0 0 false 14.32 16.60 -129.00 1331 
 
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+INFO:root:--------------------------------------------------
+INFO:root:---------
+INFO:root:2018-07-24 18:31:59
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532457119 2501 419b3340c2c653c200000002 19.400024 -99.16359 0 0 0 false 16.40 16.52 -127.00 1332 
+
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+INFO:root:--------------------------------------------------
+INFO:root:---------
+INFO:root:2018-07-24 18:35:41
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532457341 2501 419b3378c2c653b600000002 19.400131 -99.1635 0 0 0 false 16.00 16.79 -128.00 1334 
+
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+INFO:root:--------------------------------------------------
+INFO:root:---------
+INFO:root:2018-07-24 18:37:32
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532457452 2501 419b32e2c2c653d000000002 19.399845 -99.1637 0 0 0 false 15.64 16.87 -128.00 1335 
+
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+INFO:root:--------------------------------------------------
+INFO:root:---------
+INFO:root:2018-07-24 18:39:24
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532457564 79E2 419b331fc2c653c000000002 19.399961 -99.163574 0 0 0 false 9.45 16.87 -120.00 1336 
+
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+INFO:root:--------------------------------------------------
+INFO:root:---------
+INFO:root:2018-07-24 18:41:15
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532457675 2501 419b3310c2c653c300000002 19.399933 -99.1636 0 0 0 false 15.95 16.79 -128.00 1337 
+
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+INFO:root:--------------------------------------------------
+INFO:root:---------
+INFO:root:2018-07-24 18:43:03
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532457783 2501 419b331cc2c653c700000002 19.399956 -99.16363 0 0 0 false 13.30 16.69 -130.00 1338 
+
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+INFO:root:--------------------------------------------------
+INFO:root:---------
+INFO:root:2018-07-24 18:44:54
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532457894 2501 419b3313c2c653d700000002 19.399939 -99.16375 0 0 0 false 16.79 16.60 -127.00 1339 
+
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+INFO:root:--------------------------------------------------
+INFO:root:---------
+INFO:root:2018-07-24 18:46:47
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532458007 79E2 419b332fc2c653c900000002 19.399992 -99.16364 0 0 0 false 6.00 16.60 -115.00 1340 
+
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+INFO:root:--------------------------------------------------
+INFO:root:---------
+INFO:root:2018-07-24 18:48:39
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532458119 2501 419b3393c2c653d500000002 19.400183 -99.163734 0 0 0 false 13.11 16.49 -130.00 1341 
+
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+INFO:root:--------------------------------------------------
+INFO:root:---------
+INFO:root:2018-07-24 18:50:29
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532458229 79E2 419b32cdc2c653bf00000002 19.399805 -99.16357 0 0 0 false 14.40 16.55 -117.00 1342 
+
+DEBUG:sigfox_webhook:debug message b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532458339",\r\n  "station" : "2501",\r\n  "data" : "419b3331c2c653d400000002",\r\n  "lat" : 19.399996,\r\n  "lng" : -99.16373,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "13.46",\r\n  "avgSnr" : "16.40",\r\n  "rssi" : "-130.00",\r\n  "seqNumber" : "1343"\r\n\r\n}'
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+INFO:root:--------------------------------------------------
+INFO:root:---------
+INFO:root:2018-07-24 18:52:19
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532458339 2501 419b3331c2c653d400000002 19.399996 -99.16373 0 0 0 false 13.46 16.40 -130.00 1343 
+
+DEBUG:sigfox_webhook:debug message b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532458450",\r\n  "station" : "2501",\r\n  "data" : "419b32eac2c653e000000002",\r\n  "lat" : 19.39986,\r\n  "lng" : -99.16382,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "16.78",\r\n  "avgSnr" : "16.28",\r\n  "rssi" : "-127.00",\r\n  "seqNumber" : "1344"\r\n\r\n}'
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+INFO:root:--------------------------------------------------
+INFO:root:---------
+INFO:root:2018-07-24 18:54:10
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532458450 2501 419b32eac2c653e000000002 19.39986 -99.16382 0 0 0 false 16.78 16.28 -127.00 1344 
+
+DEBUG:sigfox_webhook:debug message b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532458558",\r\n  "station" : "79E2",\r\n  "data" : "419b3211c2c6545b00000002",\r\n  "lat" : 19.399446,\r\n  "lng" : -99.16476,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "11.75",\r\n  "avgSnr" : "16.25",\r\n  "rssi" : "-119.00",\r\n  "seqNumber" : "1345"\r\n\r\n}'
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+INFO:root:--------------------------------------------------
+INFO:root:---------
+INFO:root:2018-07-24 18:55:58
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532458558 79E2 419b3211c2c6545b00000002 19.399446 -99.16476 0 0 0 false 11.75 16.25 -119.00 1345 
+
+DEBUG:sigfox_webhook:debug message b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532458673",\r\n  "station" : "2501",\r\n  "data" : "419b3323c2c653c600000002",\r\n  "lat" : 19.39997,\r\n  "lng" : -99.16362,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "19.29",\r\n  "avgSnr" : "16.05",\r\n  "rssi" : "-124.00",\r\n  "seqNumber" : "1346"\r\n\r\n}'
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+INFO:root:--------------------------------------------------
+INFO:root:---------
+INFO:root:2018-07-24 18:57:53
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532458673 2501 419b3323c2c653c600000002 19.39997 -99.16362 0 0 0 false 19.29 16.05 -124.00 1346 
+
+DEBUG:sigfox_webhook:debug message b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532458783",\r\n  "station" : "2501",\r\n  "data" : "419b3308c2c653d900000002",\r\n  "lat" : 19.399918,\r\n  "lng" : -99.163765,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "17.42",\r\n  "avgSnr" : "16.18",\r\n  "rssi" : "-126.00",\r\n  "seqNumber" : "1347"\r\n\r\n}'
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+INFO:root:--------------------------------------------------
+INFO:root:---------
+INFO:root:2018-07-24 18:59:43
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532458783 2501 419b3308c2c653d900000002 19.399918 -99.163765 0 0 0 false 17.42 16.18 -126.00 1347 
+
+DEBUG:sigfox_webhook:debug message b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532458894",\r\n  "station" : "79E2",\r\n  "data" : "419b3317c2c653e100000002",\r\n  "lat" : 19.399946,\r\n  "lng" : -99.163826,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "8.50",\r\n  "avgSnr" : "16.10",\r\n  "rssi" : "-120.00",\r\n  "seqNumber" : "1348"\r\n\r\n}'
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+INFO:root:--------------------------------------------------
+INFO:root:---------
+INFO:root:2018-07-24 19:01:34
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532458894 79E2 419b3317c2c653e100000002 19.399946 -99.163826 0 0 0 false 8.50 16.10 -120.00 1348 
+
+DEBUG:sigfox_webhook:debug message b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532459005",\r\n  "station" : "2501",\r\n  "data" : "419b32dec2c653c300000002",\r\n  "lat" : 19.399837,\r\n  "lng" : -99.1636,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "15.34",\r\n  "avgSnr" : "15.88",\r\n  "rssi" : "-128.00",\r\n  "seqNumber" : "1349"\r\n\r\n}'
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+INFO:root:--------------------------------------------------
+INFO:root:---------
+INFO:root:2018-07-24 19:03:25
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532459005 2501 419b32dec2c653c300000002 19.399837 -99.1636 0 0 0 false 15.34 15.88 -128.00 1349 
+
+DEBUG:sigfox_webhook:debug message b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532459115",\r\n  "station" : "2501",\r\n  "data" : "419b32fec2c653d400000002",\r\n  "lat" : 19.399899,\r\n  "lng" : -99.16373,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "13.28",\r\n  "avgSnr" : "15.89",\r\n  "rssi" : "-130.00",\r\n  "seqNumber" : "1350"\r\n\r\n}'
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+INFO:root:--------------------------------------------------
+INFO:root:---------
+INFO:root:2018-07-24 19:05:15
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532459115 2501 419b32fec2c653d400000002 19.399899 -99.16373 0 0 0 false 13.28 15.89 -130.00 1350 
+
+DEBUG:sigfox_webhook:debug message b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532459226",\r\n  "station" : "79E2",\r\n  "data" : "419b32cec2c653f700000002",\r\n  "lat" : 19.399807,\r\n  "lng" : -99.163994,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "9.45",\r\n  "avgSnr" : "14.96",\r\n  "rssi" : "-119.00",\r\n  "seqNumber" : "1351"\r\n\r\n}'
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+INFO:root:--------------------------------------------------
+INFO:root:---------
+INFO:root:2018-07-24 19:07:06
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532459226 79E2 419b32cec2c653f700000002 19.399807 -99.163994 0 0 0 false 9.45 14.96 -119.00 1351 
+
+DEBUG:sigfox_webhook:debug message b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532459338",\r\n  "station" : "79E2",\r\n  "data" : "419b32c3c2c653e200000002",\r\n  "lat" : 19.399786,\r\n  "lng" : -99.16383,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "13.76",\r\n  "avgSnr" : "14.99",\r\n  "rssi" : "-119.00",\r\n  "seqNumber" : "1352"\r\n\r\n}'
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+INFO:root:--------------------------------------------------
+INFO:root:---------
+INFO:root:2018-07-24 19:08:58
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532459338 79E2 419b32c3c2c653e200000002 19.399786 -99.16383 0 0 0 false 13.76 14.99 -119.00 1352 
+
+DEBUG:sigfox_webhook:debug message b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532459448",\r\n  "station" : "79E2",\r\n  "data" : "419b32ccc2c653ea00000002",\r\n  "lat" : 19.399803,\r\n  "lng" : -99.163895,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "6.71",\r\n  "avgSnr" : "14.92",\r\n  "rssi" : "-118.00",\r\n  "seqNumber" : "1353"\r\n\r\n}'
+ERROR:django.request:Internal Server Error: /app/sigfox_webhook
+Traceback (most recent call last):
+  File "/Users/fts/django_dev/django_rest/webhookenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/fts/django_dev/django_rest/webhookenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/fts/django_dev/django_rest/webhookenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/fts/django_dev/django_rest/webhookenv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/fts/django_dev/django_rest/webhook/demostration/app/views.py", line 565, in sigfox_webhook
+    data = json.loads(request.body).decode('utf-8')
+AttributeError: 'dict' object has no attribute 'decode'
+DEBUG:sigfox_webhook:debug message b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532459448",\r\n  "station" : "79E2",\r\n  "data" : "419b32ccc2c653ea00000002",\r\n  "lat" : 19.399803,\r\n  "lng" : -99.163895,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "6.71",\r\n  "avgSnr" : "14.92",\r\n  "rssi" : "-118.00",\r\n  "seqNumber" : "1353"\r\n\r\n}'
+ERROR:django.request:Internal Server Error: /app/sigfox_webhook
+Traceback (most recent call last):
+  File "/Users/fts/django_dev/django_rest/webhookenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/fts/django_dev/django_rest/webhookenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/fts/django_dev/django_rest/webhookenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/fts/django_dev/django_rest/webhookenv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/fts/django_dev/django_rest/webhook/demostration/app/views.py", line 565, in sigfox_webhook
+    data = json.loads(request.body).decode('utf-8')
+AttributeError: 'dict' object has no attribute 'decode'
+DEBUG:sigfox_webhook:debug message b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532459557",\r\n  "station" : "79E2",\r\n  "data" : "419b32e6c2c653fc00000002",\r\n  "lat" : 19.399853,\r\n  "lng" : -99.16403,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "6.00",\r\n  "avgSnr" : "14.87",\r\n  "rssi" : "-114.00",\r\n  "seqNumber" : "1354"\r\n\r\n}'
+ERROR:django.request:Internal Server Error: /app/sigfox_webhook
+Traceback (most recent call last):
+  File "/Users/fts/django_dev/django_rest/webhookenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/fts/django_dev/django_rest/webhookenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/fts/django_dev/django_rest/webhookenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/fts/django_dev/django_rest/webhookenv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/fts/django_dev/django_rest/webhook/demostration/app/views.py", line 565, in sigfox_webhook
+    data = json.loads(request.body).decode('utf-8')
+AttributeError: 'dict' object has no attribute 'decode'
+DEBUG:sigfox_webhook:debug message b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532459557",\r\n  "station" : "79E2",\r\n  "data" : "419b32e6c2c653fc00000002",\r\n  "lat" : 19.399853,\r\n  "lng" : -99.16403,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "6.00",\r\n  "avgSnr" : "14.87",\r\n  "rssi" : "-114.00",\r\n  "seqNumber" : "1354"\r\n\r\n}'
+ERROR:django.request:Internal Server Error: /app/sigfox_webhook
+Traceback (most recent call last):
+  File "/Users/fts/django_dev/django_rest/webhookenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/fts/django_dev/django_rest/webhookenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/fts/django_dev/django_rest/webhookenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/fts/django_dev/django_rest/webhookenv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/fts/django_dev/django_rest/webhook/demostration/app/views.py", line 565, in sigfox_webhook
+    data = json.loads(request.body).decode('utf-8')
+AttributeError: 'dict' object has no attribute 'decode'
+DEBUG:sigfox_webhook:debug message b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532459448",\r\n  "station" : "79E2",\r\n  "data" : "419b32ccc2c653ea00000002",\r\n  "lat" : 19.399803,\r\n  "lng" : -99.163895,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "6.71",\r\n  "avgSnr" : "14.92",\r\n  "rssi" : "-118.00",\r\n  "seqNumber" : "1353"\r\n\r\n}'
+ERROR:django.request:Internal Server Error: /app/sigfox_webhook
+Traceback (most recent call last):
+  File "/Users/fts/django_dev/django_rest/webhookenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/fts/django_dev/django_rest/webhookenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/fts/django_dev/django_rest/webhookenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/fts/django_dev/django_rest/webhookenv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/fts/django_dev/django_rest/webhook/demostration/app/views.py", line 565, in sigfox_webhook
+    data = json.loads(request.body).decode('utf-8')
+AttributeError: 'dict' object has no attribute 'decode'
+DEBUG:sigfox_webhook:debug message b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532459668",\r\n  "station" : "2501",\r\n  "data" : "419b332ac2c653d700000002",\r\n  "lat" : 19.399982,\r\n  "lng" : -99.16375,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "16.81",\r\n  "avgSnr" : "14.74",\r\n  "rssi" : "-127.00",\r\n  "seqNumber" : "1355"\r\n\r\n}'
+ERROR:django.request:Internal Server Error: /app/sigfox_webhook
+Traceback (most recent call last):
+  File "/Users/fts/django_dev/django_rest/webhookenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/fts/django_dev/django_rest/webhookenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/fts/django_dev/django_rest/webhookenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/fts/django_dev/django_rest/webhookenv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/fts/django_dev/django_rest/webhook/demostration/app/views.py", line 565, in sigfox_webhook
+    data = json.loads(request.body).decode('utf-8')
+AttributeError: 'dict' object has no attribute 'decode'
+DEBUG:sigfox_webhook:debug message b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532459668",\r\n  "station" : "2501",\r\n  "data" : "419b332ac2c653d700000002",\r\n  "lat" : 19.399982,\r\n  "lng" : -99.16375,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "16.81",\r\n  "avgSnr" : "14.74",\r\n  "rssi" : "-127.00",\r\n  "seqNumber" : "1355"\r\n\r\n}'
+ERROR:django.request:Internal Server Error: /app/sigfox_webhook
+Traceback (most recent call last):
+  File "/Users/fts/django_dev/django_rest/webhookenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/fts/django_dev/django_rest/webhookenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/fts/django_dev/django_rest/webhookenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/fts/django_dev/django_rest/webhookenv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/fts/django_dev/django_rest/webhook/demostration/app/views.py", line 565, in sigfox_webhook
+    data = json.loads(request.body).decode('utf-8')
+AttributeError: 'dict' object has no attribute 'decode'
+DEBUG:sigfox_webhook:debug message b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532459557",\r\n  "station" : "79E2",\r\n  "data" : "419b32e6c2c653fc00000002",\r\n  "lat" : 19.399853,\r\n  "lng" : -99.16403,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "6.00",\r\n  "avgSnr" : "14.87",\r\n  "rssi" : "-114.00",\r\n  "seqNumber" : "1354"\r\n\r\n}'
+ERROR:django.request:Internal Server Error: /app/sigfox_webhook
+Traceback (most recent call last):
+  File "/Users/fts/django_dev/django_rest/webhookenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/fts/django_dev/django_rest/webhookenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/fts/django_dev/django_rest/webhookenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/fts/django_dev/django_rest/webhookenv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/fts/django_dev/django_rest/webhook/demostration/app/views.py", line 565, in sigfox_webhook
+    data = json.loads(request.body).decode('utf-8')
+AttributeError: 'dict' object has no attribute 'decode'
+DEBUG:sigfox_webhook:debug message b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532459780",\r\n  "station" : "79E2",\r\n  "data" : "419b331fc2c653d500000002",\r\n  "lat" : 19.399961,\r\n  "lng" : -99.163734,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "11.58",\r\n  "avgSnr" : "14.82",\r\n  "rssi" : "-120.00",\r\n  "seqNumber" : "1356"\r\n\r\n}'
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+INFO:root:--------------------------------------------------
+INFO:root:---------
+INFO:root:2018-07-24 19:16:20
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532459780 79E2 419b331fc2c653d500000002 19.399961 -99.163734 0 0 0 false 11.58 14.82 -120.00 1356 
+
+DEBUG:sigfox_webhook:debug message b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532459668",\r\n  "station" : "2501",\r\n  "data" : "419b332ac2c653d700000002",\r\n  "lat" : 19.399982,\r\n  "lng" : -99.16375,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "16.81",\r\n  "avgSnr" : "14.74",\r\n  "rssi" : "-127.00",\r\n  "seqNumber" : "1355"\r\n\r\n}'
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+INFO:root:--------------------------------------------------
+INFO:root:---------
+INFO:root:2018-07-24 19:14:28
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532459668 2501 419b332ac2c653d700000002 19.399982 -99.16375 0 0 0 false 16.81 14.74 -127.00 1355 
+
+DEBUG:sigfox_webhook:debug message b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532459448",\r\n  "station" : "79E2",\r\n  "data" : "419b32ccc2c653ea00000002",\r\n  "lat" : 19.399803,\r\n  "lng" : -99.163895,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "6.71",\r\n  "avgSnr" : "14.92",\r\n  "rssi" : "-118.00",\r\n  "seqNumber" : "1353"\r\n\r\n}'
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+INFO:root:--------------------------------------------------
+INFO:root:---------
+INFO:root:2018-07-24 19:10:48
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532459448 79E2 419b32ccc2c653ea00000002 19.399803 -99.163895 0 0 0 false 6.71 14.92 -118.00 1353 
+
+DEBUG:sigfox_webhook:debug message b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532459890",\r\n  "station" : "2501",\r\n  "data" : "419b331dc2c653d700000002",\r\n  "lat" : 19.399958,\r\n  "lng" : -99.16375,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "17.99",\r\n  "avgSnr" : "14.93",\r\n  "rssi" : "-126.00",\r\n  "seqNumber" : "1357"\r\n\r\n}'
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+INFO:root:--------------------------------------------------
+INFO:root:---------
+INFO:root:2018-07-24 19:18:10
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532459890 2501 419b331dc2c653d700000002 19.399958 -99.16375 0 0 0 false 17.99 14.93 -126.00 1357 
+
+DEBUG:sigfox_webhook:debug message b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532459557",\r\n  "station" : "79E2",\r\n  "data" : "419b32e6c2c653fc00000002",\r\n  "lat" : 19.399853,\r\n  "lng" : -99.16403,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "6.00",\r\n  "avgSnr" : "14.87",\r\n  "rssi" : "-114.00",\r\n  "seqNumber" : "1354"\r\n\r\n}'
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+INFO:root:--------------------------------------------------
+INFO:root:---------
+INFO:root:2018-07-24 19:12:37
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532459557 79E2 419b32e6c2c653fc00000002 19.399853 -99.16403 0 0 0 false 6.00 14.87 -114.00 1354 
+
+DEBUG:sigfox_webhook:debug message b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532460001",\r\n  "station" : "2501",\r\n  "data" : "419b3320c2c653de00000002",\r\n  "lat" : 19.399963,\r\n  "lng" : -99.1638,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "15.08",\r\n  "avgSnr" : "15.12",\r\n  "rssi" : "-128.00",\r\n  "seqNumber" : "1358"\r\n\r\n}'
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+INFO:root:--------------------------------------------------
+INFO:root:---------
+INFO:root:2018-07-24 19:20:01
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532460001 2501 419b3320c2c653de00000002 19.399963 -99.1638 0 0 0 false 15.08 15.12 -128.00 1358 
+
+DEBUG:sigfox_webhook:debug message b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532460113",\r\n  "station" : "79E2",\r\n  "data" : "419b334ac2c6545500000002",\r\n  "lat" : 19.400043,\r\n  "lng" : -99.16471,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "15.96",\r\n  "avgSnr" : "14.89",\r\n  "rssi" : "-119.00",\r\n  "seqNumber" : "1359"\r\n\r\n}'
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+INFO:root:--------------------------------------------------
+INFO:root:---------
+INFO:root:2018-07-24 19:21:53
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532460113 79E2 419b334ac2c6545500000002 19.400043 -99.16471 0 0 0 false 15.96 14.89 -119.00 1359 
+
+DEBUG:sigfox_webhook:debug message b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532460224",\r\n  "station" : "79E2",\r\n  "data" : "419b3360c2c653f800000002",\r\n  "lat" : 19.400085,\r\n  "lng" : -99.164,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "12.80",\r\n  "avgSnr" : "14.89",\r\n  "rssi" : "-120.00",\r\n  "seqNumber" : "1360"\r\n\r\n}'
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+INFO:root:--------------------------------------------------
+INFO:root:---------
+INFO:root:2018-07-24 19:23:44
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532460224 79E2 419b3360c2c653f800000002 19.400085 -99.164 0 0 0 false 12.80 14.89 -120.00 1360 
+
