@@ -12615,3 +12615,915 @@ DEBUG:root:data:
 
 DEBUG:root:42A58F 1532391814 2501 000000000000000000000002 0.0 0.0 0 0 0 false 18.24 16.25 -125.00 759 
 
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:{
+    "device": "42A58F",
+    "time": "1532391925",
+    "station": "2501",
+    "data": "000000000000000000000002",
+    "lat": 0.0,
+    "lng": 0.0,
+    "reles": 0,
+    "energia": 0,
+    "blue": 0,
+    "duplicate": "false",
+    "snr": "16.66",
+    "avgSnr": "16.41",
+    "rssi": "-127.00",
+    "seqNumber": "760"
+}
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+DEBUG:root:{
+  "device" : "42A58F",
+  "time" : "1532391925",
+  "station" : "2501",
+  "data" : "000000000000000000000002",
+  "lat" : 0.0,
+  "lng" : 0.0,
+  "reles" : 0,
+  "energia" : 0,
+  "blue" : 0,
+  "duplicate" : "false",
+  "snr" : "16.66",
+  "avgSnr" : "16.41",
+  "rssi" : "-127.00",
+  "seqNumber" : "760"
+
+}
+DEBUG:root:--------------------------------------------------
+DEBUG:root:log:handle_sigfox_webhook request POST HTTP/1.1
+Content-Length: 315
+Content-Type: application/json
+Accept-Language: fr
+Host: d15d0ac3.ngrok.io
+Accept-Encoding: gzip,deflate
+User-Agent: SIGFOX
+Accept-Charset: UTF-8;q=0.9,*;q=0.7
+X-Forwarded-Proto: https
+X-Forwarded-For: 185.110.97.11
+
+
+b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532391925",\r\n  "station" : "2501",\r\n  "data" : "000000000000000000000002",\r\n  "lat" : 0.0,\r\n  "lng" : 0.0,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "16.66",\r\n  "avgSnr" : "16.41",\r\n  "rssi" : "-127.00",\r\n  "seqNumber" : "760"\r\n\r\n}'
+INFO:root:---------
+INFO:root:2018-07-24 00:25:25
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532391925 2501 000000000000000000000002 0.0 0.0 0 0 0 false 16.66 16.41 -127.00 760 
+
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:{
+    "device": "42A58F",
+    "time": "1532392035",
+    "station": "79E2",
+    "data": "000000000000000000000002",
+    "lat": 0.0,
+    "lng": 0.0,
+    "reles": 0,
+    "energia": 0,
+    "blue": 0,
+    "duplicate": "false",
+    "snr": "15.08",
+    "avgSnr": "16.40",
+    "rssi": "-117.00",
+    "seqNumber": "761"
+}
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+DEBUG:root:{
+  "device" : "42A58F",
+  "time" : "1532392035",
+  "station" : "79E2",
+  "data" : "000000000000000000000002",
+  "lat" : 0.0,
+  "lng" : 0.0,
+  "reles" : 0,
+  "energia" : 0,
+  "blue" : 0,
+  "duplicate" : "false",
+  "snr" : "15.08",
+  "avgSnr" : "16.40",
+  "rssi" : "-117.00",
+  "seqNumber" : "761"
+
+}
+DEBUG:root:--------------------------------------------------
+DEBUG:root:log:handle_sigfox_webhook request POST HTTP/1.1
+Content-Length: 315
+Content-Type: application/json
+Accept-Language: fr
+Host: d15d0ac3.ngrok.io
+Accept-Encoding: gzip,deflate
+User-Agent: SIGFOX
+Accept-Charset: UTF-8;q=0.9,*;q=0.7
+X-Forwarded-Proto: https
+X-Forwarded-For: 185.110.97.11
+
+
+b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532392035",\r\n  "station" : "79E2",\r\n  "data" : "000000000000000000000002",\r\n  "lat" : 0.0,\r\n  "lng" : 0.0,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "15.08",\r\n  "avgSnr" : "16.40",\r\n  "rssi" : "-117.00",\r\n  "seqNumber" : "761"\r\n\r\n}'
+INFO:root:---------
+INFO:root:2018-07-24 00:27:15
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532392035 79E2 000000000000000000000002 0.0 0.0 0 0 0 false 15.08 16.40 -117.00 761 
+
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:{
+    "device": "42A58F",
+    "time": "1532392480",
+    "station": "2501",
+    "data": "000000000000000000000002",
+    "lat": 0.0,
+    "lng": 0.0,
+    "reles": 0,
+    "energia": 0,
+    "blue": 0,
+    "duplicate": "false",
+    "snr": "15.07",
+    "avgSnr": "16.50",
+    "rssi": "-128.00",
+    "seqNumber": "765"
+}
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+DEBUG:root:{
+  "device" : "42A58F",
+  "time" : "1532392480",
+  "station" : "2501",
+  "data" : "000000000000000000000002",
+  "lat" : 0.0,
+  "lng" : 0.0,
+  "reles" : 0,
+  "energia" : 0,
+  "blue" : 0,
+  "duplicate" : "false",
+  "snr" : "15.07",
+  "avgSnr" : "16.50",
+  "rssi" : "-128.00",
+  "seqNumber" : "765"
+
+}
+DEBUG:root:--------------------------------------------------
+DEBUG:root:log:handle_sigfox_webhook request POST HTTP/1.1
+Content-Length: 315
+Content-Type: application/json
+Accept-Language: fr
+Host: d15d0ac3.ngrok.io
+Accept-Encoding: gzip,deflate
+User-Agent: SIGFOX
+Accept-Charset: UTF-8;q=0.9,*;q=0.7
+X-Forwarded-Proto: https
+X-Forwarded-For: 185.110.97.11
+
+
+b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532392480",\r\n  "station" : "2501",\r\n  "data" : "000000000000000000000002",\r\n  "lat" : 0.0,\r\n  "lng" : 0.0,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "15.07",\r\n  "avgSnr" : "16.50",\r\n  "rssi" : "-128.00",\r\n  "seqNumber" : "765"\r\n\r\n}'
+INFO:root:---------
+INFO:root:2018-07-24 00:34:40
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532392480 2501 000000000000000000000002 0.0 0.0 0 0 0 false 15.07 16.50 -128.00 765 
+
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:{
+    "device": "42A58F",
+    "time": "1532392589",
+    "station": "79E2",
+    "data": "000000000000000000000002",
+    "lat": 0.0,
+    "lng": 0.0,
+    "reles": 0,
+    "energia": 0,
+    "blue": 0,
+    "duplicate": "false",
+    "snr": "6.00",
+    "avgSnr": "16.40",
+    "rssi": "-117.00",
+    "seqNumber": "766"
+}
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+DEBUG:root:{
+  "device" : "42A58F",
+  "time" : "1532392589",
+  "station" : "79E2",
+  "data" : "000000000000000000000002",
+  "lat" : 0.0,
+  "lng" : 0.0,
+  "reles" : 0,
+  "energia" : 0,
+  "blue" : 0,
+  "duplicate" : "false",
+  "snr" : "6.00",
+  "avgSnr" : "16.40",
+  "rssi" : "-117.00",
+  "seqNumber" : "766"
+
+}
+DEBUG:root:--------------------------------------------------
+DEBUG:root:log:handle_sigfox_webhook request POST HTTP/1.1
+Content-Length: 314
+Content-Type: application/json
+Accept-Language: fr
+Host: d15d0ac3.ngrok.io
+Accept-Encoding: gzip,deflate
+User-Agent: SIGFOX
+Accept-Charset: UTF-8;q=0.9,*;q=0.7
+X-Forwarded-Proto: https
+X-Forwarded-For: 185.110.97.11
+
+
+b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532392589",\r\n  "station" : "79E2",\r\n  "data" : "000000000000000000000002",\r\n  "lat" : 0.0,\r\n  "lng" : 0.0,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "6.00",\r\n  "avgSnr" : "16.40",\r\n  "rssi" : "-117.00",\r\n  "seqNumber" : "766"\r\n\r\n}'
+INFO:root:---------
+INFO:root:2018-07-24 00:36:29
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532392589 79E2 000000000000000000000002 0.0 0.0 0 0 0 false 6.00 16.40 -117.00 766 
+
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:{
+    "device": "42A58F",
+    "time": "1532392701",
+    "station": "79E2",
+    "data": "000000000000000000000002",
+    "lat": 0.0,
+    "lng": 0.0,
+    "reles": 0,
+    "energia": 0,
+    "blue": 0,
+    "duplicate": "false",
+    "snr": "14.40",
+    "avgSnr": "16.33",
+    "rssi": "-118.00",
+    "seqNumber": "767"
+}
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+DEBUG:root:{
+  "device" : "42A58F",
+  "time" : "1532392701",
+  "station" : "79E2",
+  "data" : "000000000000000000000002",
+  "lat" : 0.0,
+  "lng" : 0.0,
+  "reles" : 0,
+  "energia" : 0,
+  "blue" : 0,
+  "duplicate" : "false",
+  "snr" : "14.40",
+  "avgSnr" : "16.33",
+  "rssi" : "-118.00",
+  "seqNumber" : "767"
+
+}
+DEBUG:root:--------------------------------------------------
+DEBUG:root:log:handle_sigfox_webhook request POST HTTP/1.1
+Content-Length: 315
+Content-Type: application/json
+Accept-Language: fr
+Host: d15d0ac3.ngrok.io
+Accept-Encoding: gzip,deflate
+User-Agent: SIGFOX
+Accept-Charset: UTF-8;q=0.9,*;q=0.7
+X-Forwarded-Proto: https
+X-Forwarded-For: 185.110.97.11
+
+
+b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532392701",\r\n  "station" : "79E2",\r\n  "data" : "000000000000000000000002",\r\n  "lat" : 0.0,\r\n  "lng" : 0.0,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "14.40",\r\n  "avgSnr" : "16.33",\r\n  "rssi" : "-118.00",\r\n  "seqNumber" : "767"\r\n\r\n}'
+INFO:root:---------
+INFO:root:2018-07-24 00:38:21
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532392701 79E2 000000000000000000000002 0.0 0.0 0 0 0 false 14.40 16.33 -118.00 767 
+
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:{
+    "device": "42A58F",
+    "time": "1532392812",
+    "station": "79E2",
+    "data": "000000000000000000000002",
+    "lat": 0.0,
+    "lng": 0.0,
+    "reles": 0,
+    "energia": 0,
+    "blue": 0,
+    "duplicate": "false",
+    "snr": "15.60",
+    "avgSnr": "16.29",
+    "rssi": "-117.00",
+    "seqNumber": "768"
+}
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+DEBUG:root:{
+  "device" : "42A58F",
+  "time" : "1532392812",
+  "station" : "79E2",
+  "data" : "000000000000000000000002",
+  "lat" : 0.0,
+  "lng" : 0.0,
+  "reles" : 0,
+  "energia" : 0,
+  "blue" : 0,
+  "duplicate" : "false",
+  "snr" : "15.60",
+  "avgSnr" : "16.29",
+  "rssi" : "-117.00",
+  "seqNumber" : "768"
+
+}
+DEBUG:root:--------------------------------------------------
+DEBUG:root:log:handle_sigfox_webhook request POST HTTP/1.1
+Content-Length: 315
+Content-Type: application/json
+Accept-Language: fr
+Host: d15d0ac3.ngrok.io
+Accept-Encoding: gzip,deflate
+User-Agent: SIGFOX
+Accept-Charset: UTF-8;q=0.9,*;q=0.7
+X-Forwarded-Proto: https
+X-Forwarded-For: 185.110.97.11
+
+
+b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532392812",\r\n  "station" : "79E2",\r\n  "data" : "000000000000000000000002",\r\n  "lat" : 0.0,\r\n  "lng" : 0.0,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "15.60",\r\n  "avgSnr" : "16.29",\r\n  "rssi" : "-117.00",\r\n  "seqNumber" : "768"\r\n\r\n}'
+INFO:root:---------
+INFO:root:2018-07-24 00:40:12
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532392812 79E2 000000000000000000000002 0.0 0.0 0 0 0 false 15.60 16.29 -117.00 768 
+
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:{
+    "device": "42A58F",
+    "time": "1532392923",
+    "station": "79E2",
+    "data": "000000000000000000000002",
+    "lat": 0.0,
+    "lng": 0.0,
+    "reles": 0,
+    "energia": 0,
+    "blue": 0,
+    "duplicate": "false",
+    "snr": "14.85",
+    "avgSnr": "16.20",
+    "rssi": "-119.00",
+    "seqNumber": "769"
+}
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+DEBUG:root:{
+  "device" : "42A58F",
+  "time" : "1532392923",
+  "station" : "79E2",
+  "data" : "000000000000000000000002",
+  "lat" : 0.0,
+  "lng" : 0.0,
+  "reles" : 0,
+  "energia" : 0,
+  "blue" : 0,
+  "duplicate" : "false",
+  "snr" : "14.85",
+  "avgSnr" : "16.20",
+  "rssi" : "-119.00",
+  "seqNumber" : "769"
+
+}
+DEBUG:root:--------------------------------------------------
+DEBUG:root:log:handle_sigfox_webhook request POST HTTP/1.1
+Content-Length: 315
+Content-Type: application/json
+Accept-Language: fr
+Host: d15d0ac3.ngrok.io
+Accept-Encoding: gzip,deflate
+User-Agent: SIGFOX
+Accept-Charset: UTF-8;q=0.9,*;q=0.7
+X-Forwarded-Proto: https
+X-Forwarded-For: 185.110.97.11
+
+
+b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532392923",\r\n  "station" : "79E2",\r\n  "data" : "000000000000000000000002",\r\n  "lat" : 0.0,\r\n  "lng" : 0.0,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "14.85",\r\n  "avgSnr" : "16.20",\r\n  "rssi" : "-119.00",\r\n  "seqNumber" : "769"\r\n\r\n}'
+INFO:root:---------
+INFO:root:2018-07-24 00:42:03
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532392923 79E2 000000000000000000000002 0.0 0.0 0 0 0 false 14.85 16.20 -119.00 769 
+
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:{
+    "device": "42A58F",
+    "time": "1532393033",
+    "station": "79E2",
+    "data": "000000000000000000000002",
+    "lat": 0.0,
+    "lng": 0.0,
+    "reles": 0,
+    "energia": 0,
+    "blue": 0,
+    "duplicate": "false",
+    "snr": "6.00",
+    "avgSnr": "16.13",
+    "rssi": "-117.00",
+    "seqNumber": "770"
+}
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+DEBUG:root:{
+  "device" : "42A58F",
+  "time" : "1532393033",
+  "station" : "79E2",
+  "data" : "000000000000000000000002",
+  "lat" : 0.0,
+  "lng" : 0.0,
+  "reles" : 0,
+  "energia" : 0,
+  "blue" : 0,
+  "duplicate" : "false",
+  "snr" : "6.00",
+  "avgSnr" : "16.13",
+  "rssi" : "-117.00",
+  "seqNumber" : "770"
+
+}
+DEBUG:root:--------------------------------------------------
+DEBUG:root:log:handle_sigfox_webhook request POST HTTP/1.1
+Content-Length: 314
+Content-Type: application/json
+Accept-Language: fr
+Host: d15d0ac3.ngrok.io
+Accept-Encoding: gzip,deflate
+User-Agent: SIGFOX
+Accept-Charset: UTF-8;q=0.9,*;q=0.7
+X-Forwarded-Proto: https
+X-Forwarded-For: 185.110.97.11
+
+
+b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532393033",\r\n  "station" : "79E2",\r\n  "data" : "000000000000000000000002",\r\n  "lat" : 0.0,\r\n  "lng" : 0.0,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "6.00",\r\n  "avgSnr" : "16.13",\r\n  "rssi" : "-117.00",\r\n  "seqNumber" : "770"\r\n\r\n}'
+INFO:root:---------
+INFO:root:2018-07-24 00:43:53
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532393033 79E2 000000000000000000000002 0.0 0.0 0 0 0 false 6.00 16.13 -117.00 770 
+
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:{
+    "device": "42A58F",
+    "time": "1532393144",
+    "station": "79E2",
+    "data": "000000000000000000000002",
+    "lat": 0.0,
+    "lng": 0.0,
+    "reles": 0,
+    "energia": 0,
+    "blue": 0,
+    "duplicate": "false",
+    "snr": "7.59",
+    "avgSnr": "16.04",
+    "rssi": "-118.00",
+    "seqNumber": "771"
+}
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+DEBUG:root:{
+  "device" : "42A58F",
+  "time" : "1532393144",
+  "station" : "79E2",
+  "data" : "000000000000000000000002",
+  "lat" : 0.0,
+  "lng" : 0.0,
+  "reles" : 0,
+  "energia" : 0,
+  "blue" : 0,
+  "duplicate" : "false",
+  "snr" : "7.59",
+  "avgSnr" : "16.04",
+  "rssi" : "-118.00",
+  "seqNumber" : "771"
+
+}
+DEBUG:root:--------------------------------------------------
+DEBUG:root:log:handle_sigfox_webhook request POST HTTP/1.1
+Content-Length: 314
+Content-Type: application/json
+Accept-Language: fr
+Host: d15d0ac3.ngrok.io
+Accept-Encoding: gzip,deflate
+User-Agent: SIGFOX
+Accept-Charset: UTF-8;q=0.9,*;q=0.7
+X-Forwarded-Proto: https
+X-Forwarded-For: 185.110.97.11
+
+
+b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532393144",\r\n  "station" : "79E2",\r\n  "data" : "000000000000000000000002",\r\n  "lat" : 0.0,\r\n  "lng" : 0.0,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "7.59",\r\n  "avgSnr" : "16.04",\r\n  "rssi" : "-118.00",\r\n  "seqNumber" : "771"\r\n\r\n}'
+INFO:root:---------
+INFO:root:2018-07-24 00:45:44
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532393144 79E2 000000000000000000000002 0.0 0.0 0 0 0 false 7.59 16.04 -118.00 771 
+
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:{
+    "device": "42A58F",
+    "time": "1532393255",
+    "station": "2501",
+    "data": "000000000000000000000002",
+    "lat": 0.0,
+    "lng": 0.0,
+    "reles": 0,
+    "energia": 0,
+    "blue": 0,
+    "duplicate": "false",
+    "snr": "15.46",
+    "avgSnr": "15.99",
+    "rssi": "-128.00",
+    "seqNumber": "772"
+}
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+DEBUG:root:{
+  "device" : "42A58F",
+  "time" : "1532393255",
+  "station" : "2501",
+  "data" : "000000000000000000000002",
+  "lat" : 0.0,
+  "lng" : 0.0,
+  "reles" : 0,
+  "energia" : 0,
+  "blue" : 0,
+  "duplicate" : "false",
+  "snr" : "15.46",
+  "avgSnr" : "15.99",
+  "rssi" : "-128.00",
+  "seqNumber" : "772"
+
+}
+DEBUG:root:--------------------------------------------------
+DEBUG:root:log:handle_sigfox_webhook request POST HTTP/1.1
+Content-Length: 315
+Content-Type: application/json
+Accept-Language: fr
+Host: d15d0ac3.ngrok.io
+Accept-Encoding: gzip,deflate
+User-Agent: SIGFOX
+Accept-Charset: UTF-8;q=0.9,*;q=0.7
+X-Forwarded-Proto: https
+X-Forwarded-For: 185.110.97.11
+
+
+b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532393255",\r\n  "station" : "2501",\r\n  "data" : "000000000000000000000002",\r\n  "lat" : 0.0,\r\n  "lng" : 0.0,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "15.46",\r\n  "avgSnr" : "15.99",\r\n  "rssi" : "-128.00",\r\n  "seqNumber" : "772"\r\n\r\n}'
+INFO:root:---------
+INFO:root:2018-07-24 00:47:35
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532393255 2501 000000000000000000000002 0.0 0.0 0 0 0 false 15.46 15.99 -128.00 772 
+
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:{
+    "device": "42A58F",
+    "time": "1532393367",
+    "station": "79E2",
+    "data": "000000000000000000000002",
+    "lat": 0.0,
+    "lng": 0.0,
+    "reles": 0,
+    "energia": 0,
+    "blue": 0,
+    "duplicate": "false",
+    "snr": "17.89",
+    "avgSnr": "15.95",
+    "rssi": "-117.00",
+    "seqNumber": "773"
+}
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+DEBUG:root:{
+  "device" : "42A58F",
+  "time" : "1532393367",
+  "station" : "79E2",
+  "data" : "000000000000000000000002",
+  "lat" : 0.0,
+  "lng" : 0.0,
+  "reles" : 0,
+  "energia" : 0,
+  "blue" : 0,
+  "duplicate" : "false",
+  "snr" : "17.89",
+  "avgSnr" : "15.95",
+  "rssi" : "-117.00",
+  "seqNumber" : "773"
+
+}
+DEBUG:root:--------------------------------------------------
+DEBUG:root:log:handle_sigfox_webhook request POST HTTP/1.1
+Content-Length: 315
+Content-Type: application/json
+Accept-Language: fr
+Host: d15d0ac3.ngrok.io
+Accept-Encoding: gzip,deflate
+User-Agent: SIGFOX
+Accept-Charset: UTF-8;q=0.9,*;q=0.7
+X-Forwarded-Proto: https
+X-Forwarded-For: 185.110.97.11
+
+
+b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532393367",\r\n  "station" : "79E2",\r\n  "data" : "000000000000000000000002",\r\n  "lat" : 0.0,\r\n  "lng" : 0.0,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "17.89",\r\n  "avgSnr" : "15.95",\r\n  "rssi" : "-117.00",\r\n  "seqNumber" : "773"\r\n\r\n}'
+INFO:root:---------
+INFO:root:2018-07-24 00:49:27
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532393367 79E2 000000000000000000000002 0.0 0.0 0 0 0 false 17.89 15.95 -117.00 773 
+
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:{
+    "device": "42A58F",
+    "time": "1532393478",
+    "station": "79E2",
+    "data": "000000000000000000000002",
+    "lat": 0.0,
+    "lng": 0.0,
+    "reles": 0,
+    "energia": 0,
+    "blue": 0,
+    "duplicate": "false",
+    "snr": "16.47",
+    "avgSnr": "16.07",
+    "rssi": "-117.00",
+    "seqNumber": "774"
+}
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+DEBUG:root:{
+  "device" : "42A58F",
+  "time" : "1532393478",
+  "station" : "79E2",
+  "data" : "000000000000000000000002",
+  "lat" : 0.0,
+  "lng" : 0.0,
+  "reles" : 0,
+  "energia" : 0,
+  "blue" : 0,
+  "duplicate" : "false",
+  "snr" : "16.47",
+  "avgSnr" : "16.07",
+  "rssi" : "-117.00",
+  "seqNumber" : "774"
+
+}
+DEBUG:root:--------------------------------------------------
+DEBUG:root:log:handle_sigfox_webhook request POST HTTP/1.1
+Content-Length: 315
+Content-Type: application/json
+Accept-Language: fr
+Host: d15d0ac3.ngrok.io
+Accept-Encoding: gzip,deflate
+User-Agent: SIGFOX
+Accept-Charset: UTF-8;q=0.9,*;q=0.7
+X-Forwarded-Proto: https
+X-Forwarded-For: 185.110.97.11
+
+
+b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532393478",\r\n  "station" : "79E2",\r\n  "data" : "000000000000000000000002",\r\n  "lat" : 0.0,\r\n  "lng" : 0.0,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "16.47",\r\n  "avgSnr" : "16.07",\r\n  "rssi" : "-117.00",\r\n  "seqNumber" : "774"\r\n\r\n}'
+INFO:root:---------
+INFO:root:2018-07-24 00:51:18
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532393478 79E2 000000000000000000000002 0.0 0.0 0 0 0 false 16.47 16.07 -117.00 774 
+
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:{
+    "device": "42A58F",
+    "time": "1532393588",
+    "station": "2501",
+    "data": "000000000000000000000002",
+    "lat": 0.0,
+    "lng": 0.0,
+    "reles": 0,
+    "energia": 0,
+    "blue": 0,
+    "duplicate": "false",
+    "snr": "12.67",
+    "avgSnr": "16.05",
+    "rssi": "-131.00",
+    "seqNumber": "775"
+}
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+DEBUG:root:{
+  "device" : "42A58F",
+  "time" : "1532393588",
+  "station" : "2501",
+  "data" : "000000000000000000000002",
+  "lat" : 0.0,
+  "lng" : 0.0,
+  "reles" : 0,
+  "energia" : 0,
+  "blue" : 0,
+  "duplicate" : "false",
+  "snr" : "12.67",
+  "avgSnr" : "16.05",
+  "rssi" : "-131.00",
+  "seqNumber" : "775"
+
+}
+DEBUG:root:--------------------------------------------------
+DEBUG:root:log:handle_sigfox_webhook request POST HTTP/1.1
+Content-Length: 315
+Content-Type: application/json
+Accept-Language: fr
+Host: d15d0ac3.ngrok.io
+Accept-Encoding: gzip,deflate
+User-Agent: SIGFOX
+Accept-Charset: UTF-8;q=0.9,*;q=0.7
+X-Forwarded-Proto: https
+X-Forwarded-For: 185.110.97.11
+
+
+b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532393588",\r\n  "station" : "2501",\r\n  "data" : "000000000000000000000002",\r\n  "lat" : 0.0,\r\n  "lng" : 0.0,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "12.67",\r\n  "avgSnr" : "16.05",\r\n  "rssi" : "-131.00",\r\n  "seqNumber" : "775"\r\n\r\n}'
+INFO:root:---------
+INFO:root:2018-07-24 00:53:08
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532393588 2501 000000000000000000000002 0.0 0.0 0 0 0 false 12.67 16.05 -131.00 775 
+
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:{
+    "device": "42A58F",
+    "time": "1532393697",
+    "station": "2501",
+    "data": "000000000000000000000002",
+    "lat": 0.0,
+    "lng": 0.0,
+    "reles": 0,
+    "energia": 0,
+    "blue": 0,
+    "duplicate": "false",
+    "snr": "17.01",
+    "avgSnr": "16.00",
+    "rssi": "-126.00",
+    "seqNumber": "776"
+}
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+DEBUG:root:{
+  "device" : "42A58F",
+  "time" : "1532393697",
+  "station" : "2501",
+  "data" : "000000000000000000000002",
+  "lat" : 0.0,
+  "lng" : 0.0,
+  "reles" : 0,
+  "energia" : 0,
+  "blue" : 0,
+  "duplicate" : "false",
+  "snr" : "17.01",
+  "avgSnr" : "16.00",
+  "rssi" : "-126.00",
+  "seqNumber" : "776"
+
+}
+DEBUG:root:--------------------------------------------------
+DEBUG:root:log:handle_sigfox_webhook request POST HTTP/1.1
+Content-Length: 315
+Content-Type: application/json
+Accept-Language: fr
+Host: d15d0ac3.ngrok.io
+Accept-Encoding: gzip,deflate
+User-Agent: SIGFOX
+Accept-Charset: UTF-8;q=0.9,*;q=0.7
+X-Forwarded-Proto: https
+X-Forwarded-For: 185.110.97.11
+
+
+b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532393697",\r\n  "station" : "2501",\r\n  "data" : "000000000000000000000002",\r\n  "lat" : 0.0,\r\n  "lng" : 0.0,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "17.01",\r\n  "avgSnr" : "16.00",\r\n  "rssi" : "-126.00",\r\n  "seqNumber" : "776"\r\n\r\n}'
+INFO:root:---------
+INFO:root:2018-07-24 00:54:57
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532393697 2501 000000000000000000000002 0.0 0.0 0 0 0 false 17.01 16.00 -126.00 776 
+
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:{
+    "device": "42A58F",
+    "time": "1532393808",
+    "station": "79E2",
+    "data": "000000000000000000000002",
+    "lat": 0.0,
+    "lng": 0.0,
+    "reles": 0,
+    "energia": 0,
+    "blue": 0,
+    "duplicate": "false",
+    "snr": "7.81",
+    "avgSnr": "15.98",
+    "rssi": "-118.00",
+    "seqNumber": "777"
+}
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+DEBUG:root:{
+  "device" : "42A58F",
+  "time" : "1532393808",
+  "station" : "79E2",
+  "data" : "000000000000000000000002",
+  "lat" : 0.0,
+  "lng" : 0.0,
+  "reles" : 0,
+  "energia" : 0,
+  "blue" : 0,
+  "duplicate" : "false",
+  "snr" : "7.81",
+  "avgSnr" : "15.98",
+  "rssi" : "-118.00",
+  "seqNumber" : "777"
+
+}
+DEBUG:root:--------------------------------------------------
+DEBUG:root:log:handle_sigfox_webhook request POST HTTP/1.1
+Content-Length: 314
+Content-Type: application/json
+Accept-Language: fr
+Host: d15d0ac3.ngrok.io
+Accept-Encoding: gzip,deflate
+User-Agent: SIGFOX
+Accept-Charset: UTF-8;q=0.9,*;q=0.7
+X-Forwarded-Proto: https
+X-Forwarded-For: 185.110.97.11
+
+
+b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532393808",\r\n  "station" : "79E2",\r\n  "data" : "000000000000000000000002",\r\n  "lat" : 0.0,\r\n  "lng" : 0.0,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "7.81",\r\n  "avgSnr" : "15.98",\r\n  "rssi" : "-118.00",\r\n  "seqNumber" : "777"\r\n\r\n}'
+INFO:root:---------
+INFO:root:2018-07-24 00:56:48
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532393808 79E2 000000000000000000000002 0.0 0.0 0 0 0 false 7.81 15.98 -118.00 777 
+
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:{
+    "device": "42A58F",
+    "time": "1532393920",
+    "station": "688F",
+    "data": "000000000000000000000002",
+    "lat": 0.0,
+    "lng": 0.0,
+    "reles": 0,
+    "energia": 0,
+    "blue": 0,
+    "duplicate": "false",
+    "snr": "6.00",
+    "avgSnr": "16.08",
+    "rssi": "-128.00",
+    "seqNumber": "778"
+}
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+DEBUG:root:{
+  "device" : "42A58F",
+  "time" : "1532393920",
+  "station" : "688F",
+  "data" : "000000000000000000000002",
+  "lat" : 0.0,
+  "lng" : 0.0,
+  "reles" : 0,
+  "energia" : 0,
+  "blue" : 0,
+  "duplicate" : "false",
+  "snr" : "6.00",
+  "avgSnr" : "16.08",
+  "rssi" : "-128.00",
+  "seqNumber" : "778"
+
+}
+DEBUG:root:--------------------------------------------------
+DEBUG:root:log:handle_sigfox_webhook request POST HTTP/1.1
+Content-Length: 314
+Content-Type: application/json
+Accept-Language: fr
+Host: d15d0ac3.ngrok.io
+Accept-Encoding: gzip,deflate
+User-Agent: SIGFOX
+Accept-Charset: UTF-8;q=0.9,*;q=0.7
+X-Forwarded-Proto: https
+X-Forwarded-For: 185.110.97.11
+
+
+b'{\r\n  "device" : "42A58F",\r\n  "time" : "1532393920",\r\n  "station" : "688F",\r\n  "data" : "000000000000000000000002",\r\n  "lat" : 0.0,\r\n  "lng" : 0.0,\r\n  "reles" : 0,\r\n  "energia" : 0,\r\n  "blue" : 0,\r\n  "duplicate" : "false",\r\n  "snr" : "6.00",\r\n  "avgSnr" : "16.08",\r\n  "rssi" : "-128.00",\r\n  "seqNumber" : "778"\r\n\r\n}'
+INFO:root:---------
+INFO:root:2018-07-24 00:58:40
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532393920 688F 000000000000000000000002 0.0 0.0 0 0 0 false 6.00 16.08 -128.00 778 
+
