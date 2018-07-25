@@ -28232,3 +28232,36 @@ DEBUG:root:data:
 
 DEBUG:root:42A58F 1532537868 2501 419b32d9c2c653d800000002 19.399828 -99.16376 0 0 0 false 15.80 15.28 -128.00 2061 
 
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+INFO:root:--------------------------------------------------
+INFO:root:---------
+INFO:root:2018-07-25 16:58:34
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:4245C9 1532537914 6BC6 419b337bc2c653dc00004002 19.400137 -99.16379 0 0 64 false 22.17 39.64 -121.00 3076 
+
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+INFO:root:--------------------------------------------------
+INFO:root:---------
+INFO:root:2018-07-25 16:59:38
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:42A58F 1532537978 79E2 419b312ac2c6531c00000002 19.399006 -99.16232 0 0 0 false 15.26 15.46 -118.00 2062 
+
+DEBUG:root:log: handle_sigfox_webhook  (data):receive
+DEBUG:root:log:handle_sigfox_webhook  (request.body)
+INFO:root:--------------------------------------------------
+INFO:root:---------
+INFO:root:2018-07-25 17:00:15
+INFO:root:---------
+DEBUG:root:data: 
+
+
+DEBUG:root:4245C9 1532538015 7925 419b336ec2c653d8ff0bfc02 19.400112 -99.16376 255 11 252 false 29.74 41.77 -114.00 3078 
+
