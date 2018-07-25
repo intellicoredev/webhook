@@ -50,6 +50,15 @@ def function_logger(file_level, console_level=None):
     return logger
 
 
+def fn_iot():
+    f1_logger = function_logger(logging.DEBUG, logging.ERROR)
+    f1_logger.debug('debug message')
+    f1_logger.info('info message')
+    f1_logger.warn('warn message')
+    f1_logger.error('error message')
+    f1_logger.critical('critical message')
+
+
 def f1():
     f1_logger = function_logger(logging.DEBUG, logging.ERROR)
     f1_logger.debug('debug message')
@@ -535,6 +544,14 @@ def pretty_request(request):
     )
 
 
+def stop_using_unicode(x):
+
+    def unicode_to_str(x):
+        return x.normalize("NFKD").encode("ascii", "ignore")
+
+    return {unicode_to_str(k): unicode_to_str(v) for k, v in x.items()}
+
+
 @csrf_exempt
 def sigfox_webhook(request):
     # Check the X-Hub-Signature header to make sure this is a valid request.
@@ -548,13 +565,13 @@ def sigfox_webhook(request):
     # as a POST parameter. This will handle either case.
 
     #f1_logger = function_logger(logging.DEBUG, logging.ERROR)
+    
 
-    f2_logger = function_logger(logging.WARNING)
-    f2_logger.debug('debug message {}'.format(request.body))
+    
 
+    
 
-    logging.shutdown()
-
+    
     pr_print = pretty_request(request)
     print("DEBUG:sigfox_webhook:pr_print: {}".format(pr_print))
 
@@ -573,8 +590,10 @@ def sigfox_webhook(request):
         #print(('sigfox_webhook Log: 2. <body> received the {} device'.format(data)))
         print('DEBUG:sigfox_webhook Log: 2. NO POST <body> received')
         print((json.dumps(data, indent=4)))
-    
-    
+
+        data_unicode = request.body.decode('utf-8')
+        data = json.loads(data_unicode)
+        print("DEBUG:stop_using_unicode(data): {}".format(data))
 
     handle_sigfox_webhook(data, request)
 
